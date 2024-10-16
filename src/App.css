@@ -21,7 +21,7 @@
 }
 
 .App-header {
-  background-color: rgb(255, 255, 255); /* Keep header background black */
+  background-color: rgb(102, 102, 102); /* Keep header background black */
   min-height: 100vh; /* Full viewport height */
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Arrange children in a column */

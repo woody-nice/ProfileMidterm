@@ -6,7 +6,7 @@ const Home = () => {
       className="container text-center" 
       style={{ 
         backgroundColor: 'white', 
-        color: 'white', 
+        color: 'black', 
         minHeight: '100vh', 
         display: 'flex', 
         flexDirection: 'column', 

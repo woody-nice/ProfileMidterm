@@ -6,7 +6,7 @@ const Skills = () => {
       className="container text-center" 
       style={{ 
         backgroundColor: 'white', 
-        color: 'white', 
+        color: 'black', 
         minHeight: '100vh', 
         display: 'flex', 
         flexDirection: 'column', 
@@ -16,7 +16,6 @@ const Skills = () => {
     >
       <h2 className="mt-4">My Skills</h2>
       
-      <h3 className="mt-4">Programming Skills</h3>
       <ol className="list-group list-group-numbered">
         <li className="list-group-item">JavaScript</li>
         <li className="list-group-item">HTML/CSS</li>
