@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: black; /* Set background to black */
+  color: white; /* Set text color to white */
+  min-height: 100vh; /* Full viewport height */
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgb(255, 255, 255); /* Keep header background black */
+  min-height: 100vh; /* Full viewport height */
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0); /* Set text color to white */
+}
+
+.App-link {
+  color: #61dafb; /* You may want to adjust this color to fit with the dark theme */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
